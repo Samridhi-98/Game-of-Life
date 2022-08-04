@@ -26,19 +26,24 @@ The inputs below represent the coordinates of the cells in the universe which ar
 The below inputs provide the pattern or initial cells in the universe . The output is the state of the
 system
 in the next tick (one run of the application of all the rules) , represented in the same format.
+
 ---------------------------------------------------------------------- 
+
 Input A:
 (Block pattern - Still life)
 1, 1
 1, 2
 2, 1
 2, 2
+
 Output A:
 1, 1
 1, 2
 2, 1
 2, 2
+
 --------------------------------------------------------------------- 
+
 Input B:
 (Boat pattern - Still life)
 0, 1
@@ -46,13 +51,16 @@ Input B:
 2, 1
 0, 2
 1, 2
+
 Output B:
 0, 1
 1, 0
 2, 1
 0, 2
 1, 2
- ------------------------------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------------------------------ 
+
 Input C:
 (Blinker pattern - oscillator)
 1, 1
@@ -63,7 +71,9 @@ Output C:
 1, 1
 0, 1
 2, 1
+
  --------------------------------------------------------------------- 
+ 
 Input D:
 (Toad pattern - two phase oscillator)
 1, 1
@@ -80,5 +90,6 @@ Output D:
 2, 1
 2, 4
 3, 3
+
 --------------------------------------------------------------------- 
  
